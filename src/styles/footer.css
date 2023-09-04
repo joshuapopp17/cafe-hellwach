@@ -1,0 +1,40 @@
+@media (max-width: 480px) {
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        background-color: #594A42;
+        padding: 2em;
+        align-items: center;
+        gap: 1em;
+        width: 100%;
+    }
+
+    .eye {
+        width: 3em
+    }
+
+    .text {
+        width: 14em;
+    }
+}
+
+@media (min-width: 480px) {
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        background-color: #594A42;
+        padding: 2em;
+        align-items: center;
+        gap: 1em;
+        width: 100%;
+    }
+
+    .eye {
+        width: 4em
+    }
+
+    .text {
+        width: 18em
+    }
+
+}
