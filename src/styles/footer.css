@@ -1,6 +1,7 @@
 @media (max-width: 480px) {
     .footer-container {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         background-color: #594A42;
         padding: 2em;
@@ -15,6 +16,11 @@
 
     .text {
         width: 14em;
+    }
+
+    .text-name{
+        font-size: 1em;
+        color: white;
     }
 }
 
@@ -35,6 +41,11 @@
 
     .text {
         width: 18em
+    }
+
+    .text-name{
+        font-size: 2em;
+        color: white;
     }
 
 }

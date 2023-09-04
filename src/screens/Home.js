@@ -15,12 +15,14 @@ const Home = () => {
 
   return (
     <div className='home-screen'>
-        <Image src={banner} style={{width: '100%', marginTop: 20}}/>
+        <Image src={banner} className='image-people'/>
             <section>
-                <h1 className='hero-caption'>A PLAYFUL CAFE IN THE HEART OF BERLIN</h1>
-                <h2 className='hero-info'>145 Krümmer Str., Berlin</h2>
-                <h2 className='hero-info'>Mon - Sat</h2>
-                <h2 className='hero-info'>7am - 8pm</h2>
+                <Container  className='hero-container' style={{backgroundColor: '#594A42'}}>
+                    <h1 className='hero-caption story-container-text'>A PLAYFUL CAFE IN THE HEART OF BERLIN</h1>
+                    <h2 className='hero-info story-container-text'>145 Krümmer Str., Berlin</h2>
+                    <h2 className='hero-info story-container-text'>Mon - Sat</h2>
+                    <h2 className='hero-info story-container-text'>7am - 8pm</h2>
+                </Container>
             </section>
         <section>
             <Container>
@@ -33,7 +35,7 @@ const Home = () => {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row style={{marginTop: 20}}>
                     <Col className="order-last order-sm-first" sm={6}>
                         <div className='photo-caption'>
                             <h3 className='photo-caption-text'>Quality in house roasts guarantee a fresh and exciting flavor.</h3>
@@ -67,7 +69,7 @@ const Home = () => {
                 </AnimationOnScroll>
             </Container>
         </section>
-        <Image src={seats}  className='image-people'/>
+        <Image src={seats} className='image-people'/>
         <section>
             <div className='eyes-container'>
                 <Image src={eye} className='eyes-image'/>
