@@ -6,7 +6,7 @@ import menu from '../assets/MenuNoBottom.png'
 const Menu = () => {
   return (
     <div className='menu-screen'>
-        <Image src={menu} style={{width: '50%'}}></Image>
+        <Image src={menu} className='menu-image'></Image>
     </div>
   )
 }

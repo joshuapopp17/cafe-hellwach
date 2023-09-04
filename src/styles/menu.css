@@ -1,7 +1,25 @@
-.menu-screen {
-    padding-top: 3em;
-    display: flex;
-    justify-content: center;
-    width: '100%';
+@media (max-width: 480px) {
+    .menu-screen {
+        padding-top: 1em;
+        display: flex;
+        justify-content: center;
+        width: '100%';
+    }
 
+    .menu-image {
+        width: 100%
+    }
+}
+
+@media (min-width: 480px) {
+    .menu-screen {
+        padding-top: 3em;
+        display: flex;
+        justify-content: center;
+        width: '100%';
+    }
+
+    .menu-image {
+        width: 50% 
+    }
 }
